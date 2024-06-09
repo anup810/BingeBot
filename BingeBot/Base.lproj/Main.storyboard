@@ -81,6 +81,9 @@
                                                 <rect key="frame" x="68.666666666666686" y="54" width="216" height="54"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="add-show-btn"/>
+                                                <connections>
+                                                    <action selector="addShowBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7IN-w3-dkD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -104,6 +107,16 @@
                             <constraint firstItem="e6m-G4-bSW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jJ9-cg-7O6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addShowBtn" destination="P51-06-yhF" id="Ife-LG-Jgd"/>
+                        <outlet property="addShowStackView" destination="JFo-g3-c00" id="VOa-at-Xrm"/>
+                        <outlet property="addShowTextField" destination="BbY-Gc-B85" id="u1P-RG-YdF"/>
+                        <outlet property="bingebotLabel" destination="gip-qy-TNh" id="uqu-zb-IVi"/>
+                        <outlet property="randomShowLabel" destination="NOF-An-3t9" id="fjG-QA-PTU"/>
+                        <outlet property="randomShowStackView" destination="e3B-25-Dt4" id="7BC-9u-qGM"/>
+                        <outlet property="showStackView" destination="hAe-xL-6as" id="TYb-Sv-o2z"/>
+                        <outlet property="showsLabel" destination="59S-Yl-gnJ" id="jm0-hJ-pNL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
