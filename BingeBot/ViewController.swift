@@ -27,6 +27,11 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func randomBingeShowBtnWasPressed(_ sender: UIButton) {
+        randomShowLabel.text = shows.randomElement()
+        bingebotLabel.isHidden = false
+        randomShowLabel.isHidden = false
+    }
     @IBAction func addShowBtnWasPressed(_ sender: UIButton) {
         guard let showName = addShowTextField.text else{return}
         shows.append(showName)

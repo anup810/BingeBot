@@ -64,6 +64,9 @@
                                                 <rect key="frame" x="0.0" y="99.999999999999972" width="353" height="54"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="binge-btn"/>
+                                                <connections>
+                                                    <action selector="randomBingeShowBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xa4-7M-IlP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
